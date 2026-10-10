@@ -1,0 +1,196 @@
+{
+ "tic": 26986661,
+ "ra": 150.56921034376,
+ "dec": 21.5754143567241,
+ "Tmag": 13.294,
+ "tess_point_version": null,
+ "footprints": [
+  {
+   "sector": 21,
+   "cam": 1,
+   "ccd": 4,
+   "col": 1737.175274556219,
+   "row": 550.706419297625
+  },
+  {
+   "sector": 45,
+   "cam": 3,
+   "ccd": 4,
+   "col": 1414.0758195287253,
+   "row": 1184.2341308720943
+  },
+  {
+   "sector": 46,
+   "cam": 2,
+   "ccd": 2,
+   "col": 1405.6201179541815,
+   "row": 1851.2238791587286
+  },
+  {
+   "sector": 48,
+   "cam": 1,
+   "ccd": 4,
+   "col": 374.3168385930455,
+   "row": 542.6861010223424
+  },
+  {
+   "sector": 72,
+   "cam": 3,
+   "ccd": 4,
+   "col": 1646.7433214268128,
+   "row": 1828.3060546135898
+  },
+  {
+   "sector": 1751,
+   "cam": 1,
+   "ccd": 4,
+   "col": 1365.4619014883533,
+   "row": 1874.8260674384776
+  }
+ ],
+ "footprints_S1_134": [
+  {
+   "sector": 21,
+   "cam": 1,
+   "ccd": 4,
+   "col": 1737.175274556219,
+   "row": 550.706419297625
+  },
+  {
+   "sector": 45,
+   "cam": 3,
+   "ccd": 4,
+   "col": 1414.0758195287253,
+   "row": 1184.2341308720943
+  },
+  {
+   "sector": 46,
+   "cam": 2,
+   "ccd": 2,
+   "col": 1405.6201179541815,
+   "row": 1851.2238791587286
+  },
+  {
+   "sector": 48,
+   "cam": 1,
+   "ccd": 4,
+   "col": 374.3168385930455,
+   "row": 542.6861010223424
+  },
+  {
+   "sector": 72,
+   "cam": 3,
+   "ccd": 4,
+   "col": 1646.7433214268128,
+   "row": 1828.3060546135898
+  }
+ ],
+ "mast_query": "Observations.query_criteria(target_name='26986661')",
+ "mast": [
+  {
+   "coll": "HLSP",
+   "prov": "QLP",
+   "sector": 21,
+   "exp": 1800.0,
+   "obsid": "36236543"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TARS",
+   "sector": 21,
+   "exp": 1800.0,
+   "obsid": "402816363"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TESS-SPOC",
+   "sector": 21,
+   "exp": 1800.0,
+   "obsid": "36120769"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "QLP",
+   "sector": 45,
+   "exp": 600.0,
+   "obsid": "110218609"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TARS",
+   "sector": 45,
+   "exp": 600.0,
+   "obsid": "417371624"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "QLP",
+   "sector": 46,
+   "exp": 600.0,
+   "obsid": "111366438"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TARS",
+   "sector": 46,
+   "exp": 600.0,
+   "obsid": "417574208"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TESS-SPOC",
+   "sector": 46,
+   "exp": 600.0,
+   "obsid": "111191329"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "QLP",
+   "sector": 48,
+   "exp": 600.0,
+   "obsid": "116933153"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TARS",
+   "sector": 48,
+   "exp": 600.0,
+   "obsid": "418211337"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TESS-SPOC",
+   "sector": 48,
+   "exp": 600.0,
+   "obsid": "112560929"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "QLP",
+   "sector": 72,
+   "exp": 200.0,
+   "obsid": "214732341"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TARS",
+   "sector": 72,
+   "exp": 200.0,
+   "obsid": "431961786"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TESS-SPOC",
+   "sector": 72,
+   "exp": 200.0,
+   "obsid": "232425247"
+  },
+  {
+   "coll": "HLSP",
+   "prov": "TESS-SPOC",
+   "sector": 1751,
+   "exp": 200.0,
+   "obsid": "407154379"
+  }
+ ]
+}

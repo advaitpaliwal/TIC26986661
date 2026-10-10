@@ -1,0 +1,153 @@
+{
+ "window": "CHANGED: tc=4062.852372 (five-sector posterior, \u00b10.006128 d), dur=1.4473555 h; old tc 4062.82203 dur 1.1827 h preserved in s1751_injection.json / s1751_comparisons_and_injcdf.json",
+ "method": "same events()/comb()/inject() as sectors/scripts/measure.py; 200 random offsets U(0.15,0.85)P excl 0.40-0.60, seed 26986661",
+ "PDCSAP_FLUX": {
+  "n_in": 26,
+  "n_pre_oot": 104,
+  "n_post_oot": 32,
+  "data_end_minus_tc_d": 0.1334,
+  "observed": {
+   "depth_ppm": 2912.7,
+   "err_ppm": 1248.8,
+   "snr": 2.33,
+   "events": 1,
+   "chi2r": 0.0
+  },
+  "inject_at_tc": {
+   "total_ppm": 5992.7,
+   "increment_ppm": 3080.0
+  },
+  "random_phase": {
+   "n": 193,
+   "frac_injected_total_le_observed": 0.4352,
+   "total_median": 3344.8,
+   "total_p2_5_p16": [
+    -1809.7,
+    217.8
+   ],
+   "increment_median": 3070.4
+  }
+ },
+ "SAP_FLUX": {
+  "n_in": 26,
+  "n_pre_oot": 104,
+  "n_post_oot": 32,
+  "data_end_minus_tc_d": 0.1334,
+  "observed": {
+   "depth_ppm": 3606.3,
+   "err_ppm": 1114.1,
+   "snr": 3.24,
+   "events": 1,
+   "chi2r": 0.0
+  },
+  "inject_at_tc": {
+   "total_ppm": 6692.8,
+   "increment_ppm": 3086.5
+  },
+  "random_phase": {
+   "n": 189,
+   "frac_injected_total_le_observed": 0.7196,
+   "total_median": 2080.5,
+   "total_p2_5_p16": [
+    -3052.2,
+    -689.0
+   ],
+   "increment_median": 3078.1
+  }
+ },
+ "peers": {
+  "rows": [
+   {
+    "tic": "26925211",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 71.6,
+    "z": 0.17
+   },
+   {
+    "tic": "26957315",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": -6005.8,
+    "z": -4.23
+   },
+   {
+    "tic": "26957332",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 396.0,
+    "z": 2.69
+   },
+   {
+    "tic": "26957343",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 5614.6,
+    "z": 7.98
+   },
+   {
+    "tic": "26957347",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 1057.4,
+    "z": 2.41
+   },
+   {
+    "tic": "26957379",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": -24.4,
+    "z": -0.08
+   },
+   {
+    "tic": "26957403",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 1089.2,
+    "z": 1.54
+   },
+   {
+    "tic": "26957415",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": -856.4,
+    "z": -0.83
+   },
+   {
+    "tic": "26957452",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 2757.1,
+    "z": 5.99
+   },
+   {
+    "tic": "26958239",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": 99.6,
+    "z": 0.08
+   },
+   {
+    "tic": "26958264",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": -396.9,
+    "z": -2.12
+   },
+   {
+    "tic": "26958304",
+    "cam": 1,
+    "ccd": 4,
+    "depth_ppm": -88.9,
+    "z": -0.09
+   }
+  ],
+  "n": 12,
+  "median_depth_ppm": 85.6,
+  "n_z_gt3": 2.0,
+  "frac_z_gt3": 0.16666666666666666,
+  "null": "shifts tc-0.1kP k=1..9 (non-overlapping, earlier data; many fall in gaps)",
+  "null_n": 96,
+  "null_frac_z_gt3": 0.052083333333333336
+ }
+}

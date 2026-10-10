@@ -1,0 +1,9 @@
+{"tic":26986661,"utc":"2026-10-10T08:24-08:26Z",
+"failures":["NEA TAP contains()/circle cone and combined TOI query blocked by Cloudflare (Ray a4843c33bd52e0b7); replaced by RA/Dec box +-2 arcmin"],
+"exofop":{"tois":0,"ctois":0,"confirmed_planets":"","contamination":0,"names":"2MASS J10021661+2134318, Gaia DR3 629487655490866048, LP 371-15 (SIMBAD)",
+ "stellar_TICv8.2":{"teff":3395,"teff_e":157,"rad":0.325248,"rad_e":0.00969362,"mass":0.305607,"mass_e":0.0201859,"dens_gcc":12.523874,"dens_e":0.291454,"logg":4.8988,"dist_pc":67.4032,"lum":0.01266144},
+ "ra":150.568986,"dec":21.574344},
+"toi_csv":{"rows":8151,"tic_matches":0},"ctoi_csv":{"rows":5138,"tic_matches":0},
+"nea":{"ps_by_tic":0,"ps_box2arcmin":0,"toi_by_tic":0,"toi_box2arcmin":0},
+"simbad_1arcmin":"single object LP 371-15, PM*, no children/siblings",
+"mast_dv_tces":0}

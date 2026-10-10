@@ -1,0 +1,52 @@
+{
+ "file": "work/deep/26986661/sectors/data1751/mastDownload/HLSP/hlsp_tess-spoc_tess_phot_0000000026986661-s1751_tess_v1_lc/hlsp_tess-spoc_tess_phot_0000000026986661-s1751_tess_v1_lc.fits",
+ "SECTOR": 1751,
+ "CAMERA": 1,
+ "CCD": 4,
+ "n_good": 1823,
+ "t_range_btjd": [
+  4055.76090114614,
+  4062.9857705871964
+ ],
+ "cad_s": 200,
+ "dump_flag32_times": [
+  4059.9463,
+  4059.9486,
+  4062.9881,
+  4062.9904,
+  4062.9927,
+  4062.995,
+  4062.9973,
+  4062.9997,
+  4063.002,
+  4063.0043
+ ],
+ "predicted_tc_in_span": [
+  4058.8259071654047,
+  4062.822034943352
+ ],
+ "events": [
+  {
+   "epoch": 548,
+   "parity": 0,
+   "tc": 4062.82203,
+   "depth_ppm": -1122.3,
+   "err_ppm": 1389.8,
+   "n_in": 21
+  }
+ ],
+ "primary": {
+  "depth_ppm": -1122.3,
+  "err_ppm": 1389.8,
+  "snr": -0.81,
+  "events": 1,
+  "chi2r": 0.0
+ },
+ "phase0.5": {
+  "depth_ppm": -758.9,
+  "err_ppm": 1496.7,
+  "snr": -0.51,
+  "events": 1,
+  "chi2r": 0.0
+ }
+}

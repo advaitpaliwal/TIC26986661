@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "rule": "No neighbour within 60 arcsec: centroid <=21 arcsec every sector; no source within 120 arcsec preferred",
+  "expected_sectors": [
+    21,
+    45,
+    46,
+    48,
+    72
+  ],
+  "sectors": [
+    21,
+    45,
+    46,
+    48,
+    72
+  ],
+  "sector_evidence": [
+    {
+      "sector": 21,
+      "centroid_arcsec": 4.7720868851904035,
+      "neighbours_within_60": 0,
+      "neighbours_within_120": 8,
+      "min_neighbour_delta_chi2": 23.520105290401602
+    },
+    {
+      "sector": 45,
+      "centroid_arcsec": 1.0023105875582468,
+      "neighbours_within_60": 0,
+      "neighbours_within_120": 8,
+      "min_neighbour_delta_chi2": 29.372930585013933
+    },
+    {
+      "sector": 46,
+      "centroid_arcsec": 5.569464688826766,
+      "neighbours_within_60": 0,
+      "neighbours_within_120": 8,
+      "min_neighbour_delta_chi2": 7.8003768941942155
+    },
+    {
+      "sector": 48,
+      "centroid_arcsec": 1.7863992006279243,
+      "neighbours_within_60": 0,
+      "neighbours_within_120": 8,
+      "min_neighbour_delta_chi2": 22.312184515284457
+    },
+    {
+      "sector": 72,
+      "centroid_arcsec": 8.843198505407916,
+      "neighbours_within_60": 0,
+      "neighbours_within_120": 7,
+      "min_neighbour_delta_chi2": 31.75684573384615
+    }
+  ]
+}

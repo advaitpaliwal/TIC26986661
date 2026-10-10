@@ -1,0 +1,161 @@
+{
+  "tic": 26986661,
+  "P": 3.9961277779469513,
+  "T0": 1872.9440126284226,
+  "duration_days": 0.049277859571508216,
+  "baseline_days": 0.5,
+  "available": [
+    "spoc_21",
+    "qlp_21",
+    "qlp_45",
+    "spoc_46",
+    "qlp_46",
+    "spoc_48",
+    "qlp_48",
+    "spoc_72",
+    "qlp_72"
+  ],
+  "missing": [
+    {
+      "product": "spoc",
+      "sector": 45,
+      "error": "[Errno 2] No such file or directory: 'work/hunt7/lc/26986661/spoc_s45.fits'"
+    }
+  ],
+  "combined": {
+    "qlp": {
+      "raw": {
+        "depth_ppm": 2759.275649965402,
+        "err_ppm": 444.0227414478312,
+        "events": 25
+      },
+      "corrected": {
+        "depth_ppm": 2747.7369656727133,
+        "err_ppm": 444.0518747972944,
+        "events": 25
+      }
+    },
+    "spoc": {
+      "raw": {
+        "depth_ppm": 3050.4500184356634,
+        "err_ppm": 361.8085157902548,
+        "events": 23
+      },
+      "corrected": {
+        "depth_ppm": 3109.7444848199048,
+        "err_ppm": 346.75122708389995,
+        "events": 23
+      }
+    }
+  },
+  "per_sector": {
+    "qlp_21": {
+      "raw": {
+        "depth_ppm": 1927.4938283922615,
+        "err_ppm": 1526.8863036448297,
+        "events": 2
+      },
+      "corrected": {
+        "depth_ppm": 1878.4461640200436,
+        "err_ppm": 1528.0273495638332,
+        "events": 2
+      }
+    },
+    "qlp_45": {
+      "raw": {
+        "depth_ppm": 3734.7211836545,
+        "err_ppm": 995.3104376328206,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 3710.8703673671566,
+        "err_ppm": 995.218698727857,
+        "events": 6
+      }
+    },
+    "qlp_46": {
+      "raw": {
+        "depth_ppm": 1083.677933536071,
+        "err_ppm": 773.3483674658702,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 1084.7016739971605,
+        "err_ppm": 772.6588225201516,
+        "events": 6
+      }
+    },
+    "qlp_48": {
+      "raw": {
+        "depth_ppm": 3474.3979563349003,
+        "err_ppm": 1065.671844273233,
+        "events": 5
+      },
+      "corrected": {
+        "depth_ppm": 3491.493116867965,
+        "err_ppm": 1066.3015521100772,
+        "events": 5
+      }
+    },
+    "qlp_72": {
+      "raw": {
+        "depth_ppm": 4187.486283265353,
+        "err_ppm": 961.7405759547672,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 4167.034089505544,
+        "err_ppm": 962.7015205844425,
+        "events": 6
+      }
+    },
+    "spoc_21": {
+      "raw": {
+        "depth_ppm": 3523.5931475360358,
+        "err_ppm": 819.7186113939235,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 3079.040714552509,
+        "err_ppm": 684.6680735780316,
+        "events": 6
+      }
+    },
+    "spoc_46": {
+      "raw": {
+        "depth_ppm": 2632.6977035041677,
+        "err_ppm": 657.0406487442774,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 2618.5469194933094,
+        "err_ppm": 658.5751479763405,
+        "events": 6
+      }
+    },
+    "spoc_48": {
+      "raw": {
+        "depth_ppm": 3769.869661135384,
+        "err_ppm": 766.1182702623491,
+        "events": 5
+      },
+      "corrected": {
+        "depth_ppm": 3789.472351472285,
+        "err_ppm": 760.4305363269275,
+        "events": 5
+      }
+    },
+    "spoc_72": {
+      "raw": {
+        "depth_ppm": 2598.871863964874,
+        "err_ppm": 685.0757188634616,
+        "events": 6
+      },
+      "corrected": {
+        "depth_ppm": 3120.232333965819,
+        "err_ppm": 682.1947642367318,
+        "events": 6
+      }
+    }
+  }
+}

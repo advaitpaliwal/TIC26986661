@@ -1,0 +1,30 @@
+{
+ "supersedes": [
+  "sametime_summary.json sectors.45 dump fields and all{}",
+  "events_sametime.csv sector 45 nearest_dump_event_d",
+  "dump_null_summary.json qlp_45 and all groups"
+ ],
+ "reason": "QLP quality bit 32 is not the SPOC momentum-dump flag; S45 dumps now from 334 cached SPOC S45 files",
+ "S45_dump_cluster_centers": [
+  2531.7922,
+  2539.1436,
+  2544.7932
+ ],
+ "S45_event_nearest_dump_d": [
+  3.4832,
+  0.5129,
+  2.8423,
+  1.1538,
+  0.4997,
+  3.4964
+ ],
+ "S45_same_cam3_ccd4_n_comp": 33,
+ "S45_real_frac_z_gt3": 0.010101010101010102,
+ "S45_null_frac_z_gt3": 0.0019342359767891683,
+ "all29_cluster_center_basis": {
+  "lt_halfwidth_0.0246": 0,
+  "lt_0.1": 2,
+  "lt_0.25": 3
+ },
+ "note": "counts measured to dump-cluster centres; the timestamp basis (dump_null.py) gave 1 within half-width for the SPOC sectors"
+}
